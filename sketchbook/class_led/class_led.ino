@@ -1,7 +1,7 @@
 int8_t pos = 0, dir = 1; // Position, direction of "eye"
 long lastMillis = 0;
 
-int8_t leds[] = {9,10,11};
+int8_t leds[] = {9,10,11}; //pin numbers of your LEDs.  make sure these are PWM capable pins
 #define NUMBER_OF_LEDS (sizeof(leds)/sizeof(int8_t))
 
 void setup(){
